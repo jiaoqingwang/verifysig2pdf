@@ -24,7 +24,7 @@ public class CompareFilesController {
             if(txtfile.isEmpty()){
                 return "请选择一个签名字符串TXT文件上传";
             }
-            byte[] pdfbytes = pdffile.getBytes();
+            byte[] pdfbytes = pdffile.getBytes();//
             byte[] txtbytes = txtfile.getBytes();
 
         }catch (FileNotFoundException e){
